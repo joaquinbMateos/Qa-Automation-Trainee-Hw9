@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI" parallel="tests" thread-count="2">
+    <parameter name="browser" value="CHROME"/>
+
+    <test name="library of congress page">
+        <groups>
+            <dependencies>
+                <group depends-on= "homePage" name= "digitalCollection"></group>
+                <group depends-on= "digitalCollection" name= "survey"></group>
+            </dependencies>
+        </groups>
+        <classes>
+            <class name="Homework09.Tests.LibraryOfCongress.TestHomePage"/>
+            <class name="Homework09.Tests.LibraryOfCongress.TestDigitalCollection"/>
+            <class name="Homework09.Tests.LibraryOfCongress.TestSurvey"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="demoQa page + rahulshetty page">
+        <groups>
+            <dependencies>
+                <!-- <group depends-on= "homePage" name= "digitalCollection"></group>
+                 <group depends-on= "digitalCollection" name= "survey"></group> -->
+            </dependencies>
+        </groups>
+        <classes>
+            <class name="Homework09.Tests.TestDemoQaPage"/>
+            <class name="Homework09.Tests.TestPracticePage"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

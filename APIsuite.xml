@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API">
+    <parameter name="browser" value="CHROME"/>
+    <test name="Api test">
+        <classes>
+            <class name="Homework09.Tests.TestAPI"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

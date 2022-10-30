@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-27T15:48:20 ART" name="Homework09-01" finished-at="2022-10-27T15:49:36 ART" duration-ms="76377">
+    <groups>
+    </groups>
+    <test started-at="2022-10-27T15:48:20 ART" name="Homework09" finished-at="2022-10-27T15:49:36 ART" duration-ms="76377">
+      <class name="Homework09.Tests.TestDemoQaPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:48:20 ART" name="setUp" finished-at="2022-10-27T15:49:15 ART" duration-ms="55148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startApp()[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:15 ART" name="startApp" finished-at="2022-10-27T15:49:29 ART" duration-ms="13164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method signature="assertFormsUrl()[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:29 ART" name="assertFormsUrl" finished-at="2022-10-27T15:49:29 ART" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFormsUrl -->
+        <test-method signature="assertPracticeFormsUrl()[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:30 ART" name="assertPracticeFormsUrl" finished-at="2022-10-27T15:49:31 ART" depends-on-methods="Homework09.Tests.TestDemoQaPage.assertFormsUrl" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPracticeFormsUrl -->
+        <test-method signature="fillInputs(java.util.List)[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:31 ART" name="fillInputs" data-provider="inputs" finished-at="2022-10-27T15:49:32 ART" duration-ms="1499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[name, lastName, email, mobile, subjects, address]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInputs -->
+        <test-method signature="selectGender()[pri:1, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:32 ART" name="selectGender" finished-at="2022-10-27T15:49:33 ART" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGender -->
+        <test-method signature="completeBirthDate()[pri:2, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:33 ART" name="completeBirthDate" finished-at="2022-10-27T15:49:34 ART" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeBirthDate -->
+        <test-method signature="selectHobby()[pri:3, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:34 ART" name="selectHobby" finished-at="2022-10-27T15:49:34 ART" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHobby -->
+        <test-method signature="uploadImage()[pri:4, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:34 ART" name="uploadImage" finished-at="2022-10-27T15:49:35 ART" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImage -->
+        <test-method signature="completeState()[pri:5, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:35 ART" name="completeState" finished-at="2022-10-27T15:49:35 ART" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeState -->
+        <test-method signature="submit()[pri:6, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:35 ART" name="submit" finished-at="2022-10-27T15:49:35 ART" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Homework09.Tests.TestDemoQaPage@5c2375a9]" started-at="2022-10-27T15:49:35 ART" name="tearDown" finished-at="2022-10-27T15:49:36 ART" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Homework09.Tests.TestDemoQaPage -->
+    </test> <!-- Homework09 -->
+  </suite> <!-- Homework09-01 -->
+</testng-results>
