@@ -107,7 +107,6 @@
           <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>${SuiteXmlFile}</suiteXmlFile>
-              
             </suiteXmlFiles>
           </configuration>
         </plugin>
