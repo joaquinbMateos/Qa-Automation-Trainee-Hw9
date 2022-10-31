@@ -106,8 +106,8 @@
           <version>3.0.0-M7</version>
           <configuration>
             <suiteXmlFiles>
-              <file>UIsuite.xml</file>
-              <file>APIsuite.xml</file>
+              <suiteXmlFile>${SuiteXmlFile}</suiteXmlFile>
+              
             </suiteXmlFiles>
           </configuration>
         </plugin>
